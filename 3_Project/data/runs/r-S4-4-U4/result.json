@@ -1,0 +1,44 @@
+{
+ "run_id": "r-S4-4-U4",
+ "scenario": "S4",
+ "seed": 4,
+ "universe": "U4",
+ "config_sha256": "62a9327b53415602163d3f8aeef3ea5f69c29ce80567f9798896d2781323f660",
+ "sim_version": "bac5642",
+ "metrics": {
+  "peak_queue": 402.0,
+  "excess_retries": 3648.0,
+  "recovery_time_s": 0.0,
+  "unique_success": 96741.0,
+  "duplicate_commits": 30.0,
+  "peak_switch_checks_per_s": 59.0,
+  "switch_checks_total": 1547.0,
+  "switch_checks_per_unknown": 0.7416107382550335,
+  "unknowns_total": 2086.0,
+  "median_resolve_s": 3.396,
+  "p95_resolve_s": 10.52025,
+  "escalated": 0.0,
+  "harmful_failovers": null,
+  "tat_breaches": null,
+  "goodput_min_frac": 0.8144683504833179
+ },
+ "ground_truth": [
+  {
+   "incident_id": "gt-1",
+   "onset_ms": 189642,
+   "end_ms": 248509,
+   "level": "psp",
+   "psp": "P2",
+   "bank": "*",
+   "kind": "retry_storm",
+   "magnitude": 0.6301304704440823,
+   "is_incident": true
+  }
+ ],
+ "files": {
+  "events": "events.jsonl.gz",
+  "ground_truth": "ground_truth.json",
+  "timeseries": "timeseries.json",
+  "ticks": "ticks.jsonl"
+ }
+}

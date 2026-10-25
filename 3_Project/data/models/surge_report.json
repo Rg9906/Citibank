@@ -1,0 +1,105 @@
+{
+ "summary": {
+  "runs": 10,
+  "simulated_hours": 2.167,
+  "grid": "../data/models/forecaster_grid.json",
+  "platform_surge_share": 0.23692307692307693,
+  "psp_surge_share": 0.4246153846153846,
+  "false_critical_groups_per_hour": 0.9230769230769228,
+  "warning_groups_per_hour": 6.923076923076921,
+  "d4_target": ">= 0.95 platform surge share",
+  "label": "simulation, S1 validation runs"
+ },
+ "runs": [
+  {
+   "run_id": "r-S1-1000-U0",
+   "surge_ticks": 30,
+   "platform_surge_share": 0.06666666666666667,
+   "psp_surge_share": 0.4444444444444444,
+   "false_critical_groups": 0,
+   "warning_groups": 3,
+   "hours": 0.21666666666666667
+  },
+  {
+   "run_id": "r-S1-1001-U0",
+   "surge_ticks": 27,
+   "platform_surge_share": 0.2962962962962963,
+   "psp_surge_share": 0.5185185185185185,
+   "false_critical_groups": 0,
+   "warning_groups": 1,
+   "hours": 0.21666666666666667
+  },
+  {
+   "run_id": "r-S1-1002-U0",
+   "surge_ticks": 32,
+   "platform_surge_share": 0.40625,
+   "psp_surge_share": 0.5208333333333334,
+   "false_critical_groups": 0,
+   "warning_groups": 1,
+   "hours": 0.21666666666666667
+  },
+  {
+   "run_id": "r-S1-1003-U0",
+   "surge_ticks": 40,
+   "platform_surge_share": 0.3,
+   "psp_surge_share": 0.35,
+   "false_critical_groups": 0,
+   "warning_groups": 0,
+   "hours": 0.21666666666666667
+  },
+  {
+   "run_id": "r-S1-1004-U0",
+   "surge_ticks": 38,
+   "platform_surge_share": 0.21052631578947367,
+   "psp_surge_share": 0.3684210526315789,
+   "false_critical_groups": 0,
+   "warning_groups": 4,
+   "hours": 0.21666666666666667
+  },
+  {
+   "run_id": "r-S1-1005-U0",
+   "surge_ticks": 35,
+   "platform_surge_share": 0.4,
+   "psp_surge_share": 0.4666666666666667,
+   "false_critical_groups": 0,
+   "warning_groups": 1,
+   "hours": 0.21666666666666667
+  },
+  {
+   "run_id": "r-S1-1006-U0",
+   "surge_ticks": 33,
+   "platform_surge_share": 0.12121212121212122,
+   "psp_surge_share": 0.36363636363636365,
+   "false_critical_groups": 1,
+   "warning_groups": 1,
+   "hours": 0.21666666666666667
+  },
+  {
+   "run_id": "r-S1-1007-U0",
+   "surge_ticks": 28,
+   "platform_surge_share": 0.07142857142857142,
+   "psp_surge_share": 0.47619047619047616,
+   "false_critical_groups": 0,
+   "warning_groups": 2,
+   "hours": 0.21666666666666667
+  },
+  {
+   "run_id": "r-S1-1008-U0",
+   "surge_ticks": 33,
+   "platform_surge_share": 0.030303030303030304,
+   "psp_surge_share": 0.26262626262626265,
+   "false_critical_groups": 1,
+   "warning_groups": 1,
+   "hours": 0.21666666666666667
+  },
+  {
+   "run_id": "r-S1-1009-U0",
+   "surge_ticks": 29,
+   "platform_surge_share": 0.4482758620689655,
+   "psp_surge_share": 0.5402298850574713,
+   "false_critical_groups": 0,
+   "warning_groups": 1,
+   "hours": 0.21666666666666667
+  }
+ ]
+}

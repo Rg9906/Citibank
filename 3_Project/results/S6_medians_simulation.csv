@@ -1,0 +1,4 @@
+universe,n_seeds,duplicate_commits,escalated,excess_retries,goodput_min_frac,harmful_failovers,median_resolve_s,p95_resolve_s,peak_queue,peak_switch_checks_per_s,recovery_time_s,switch_checks_per_unknown,switch_checks_total,tat_breaches,unique_success,unknowns_total
+U0,5,84.0,0.0,1497.0,0.914,,61.406,61.716,26.0,62.0,6.0,18.435,3602.0,,97090.0,234.0
+U2,5,0.0,235.0,1389.0,0.924,,50.149,50.212,0.0,22.0,5.0,3.0,705.0,,96970.0,235.0
+U4,5,21.0,166.0,1415.0,0.925,,50.158,61.565,2.0,36.0,5.0,7.187,1689.0,,97000.0,235.0

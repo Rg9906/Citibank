@@ -1,0 +1,101 @@
+{
+ "weighting": "equal per run",
+ "split": {
+  "A": [
+   1,
+   999
+  ],
+  "B": [
+   1000,
+   1999
+  ],
+  "C": [
+   2000,
+   2999
+  ]
+ },
+ "A": {
+  "runs": 60,
+  "stuck_runs": 29
+ },
+ "B_monotone_True": {
+  "samples": 1986,
+  "runs": 30,
+  "stuck_runs": 14,
+  "auc_samples": 0.9307639555616514,
+  "brier_samples": 0.07680841903337493,
+  "auc_runs_max_p": 1.0
+ },
+ "B_monotone_False": {
+  "samples": 1986,
+  "runs": 30,
+  "stuck_runs": 14,
+  "auc_samples": 0.9293497310230269,
+  "brier_samples": 0.07852414991326159,
+  "auc_runs_max_p": 1.0
+ },
+ "chosen_monotone": true,
+ "B_lead_time": {
+  "level": 0.5,
+  "stuck_runs_warned": 14,
+  "stuck_runs_missed": 0,
+  "median_lead_to_collapse_s": 18.5,
+  "share_warned_before_collapse": 1.0,
+  "median_lead_to_trigger_end_s": 45.7715,
+  "false_critical_runs": 9,
+  "non_stuck_runs": 16
+ },
+ "B_threshold_sweep": [
+  {
+   "level": 0.5,
+   "stuck_runs_warned": 14,
+   "stuck_runs_missed": 0,
+   "median_lead_to_collapse_s": 18.5,
+   "share_warned_before_collapse": 1.0,
+   "median_lead_to_trigger_end_s": 45.7715,
+   "false_critical_runs": 9,
+   "non_stuck_runs": 16
+  },
+  {
+   "level": 0.6,
+   "stuck_runs_warned": 14,
+   "stuck_runs_missed": 0,
+   "median_lead_to_collapse_s": 5.5,
+   "share_warned_before_collapse": 0.6428571428571429,
+   "median_lead_to_trigger_end_s": 25.250999999999998,
+   "false_critical_runs": 0,
+   "non_stuck_runs": 16
+  },
+  {
+   "level": 0.7,
+   "stuck_runs_warned": 14,
+   "stuck_runs_missed": 0,
+   "median_lead_to_collapse_s": 5.5,
+   "share_warned_before_collapse": 0.6428571428571429,
+   "median_lead_to_trigger_end_s": 25.250999999999998,
+   "false_critical_runs": 0,
+   "non_stuck_runs": 16
+  },
+  {
+   "level": 0.8,
+   "stuck_runs_warned": 14,
+   "stuck_runs_missed": 0,
+   "median_lead_to_collapse_s": 5.5,
+   "share_warned_before_collapse": 0.6428571428571429,
+   "median_lead_to_trigger_end_s": 25.250999999999998,
+   "false_critical_runs": 0,
+   "non_stuck_runs": 16
+  },
+  {
+   "level": 0.9,
+   "stuck_runs_warned": 14,
+   "stuck_runs_missed": 0,
+   "median_lead_to_collapse_s": 5.5,
+   "share_warned_before_collapse": 0.6428571428571429,
+   "median_lead_to_trigger_end_s": 25.250999999999998,
+   "false_critical_runs": 0,
+   "non_stuck_runs": 16
+  }
+ ],
+ "note": "spec grid (monotone=True) kept; AUC gap monotone off - on = -0.001 on B. Sample AUC includes ticks after collapse; see B_lead_time for warning before collapse. Simulation data only."
+}

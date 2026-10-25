@@ -1,0 +1,43 @@
+{
+ "run_id": "r-S6-4-U0",
+ "scenario": "S6",
+ "seed": 4,
+ "universe": "U0",
+ "config_sha256": "62a9327b53415602163d3f8aeef3ea5f69c29ce80567f9798896d2781323f660",
+ "sim_version": "bac5642",
+ "metrics": {
+  "peak_queue": 6.0,
+  "excess_retries": 1474.0,
+  "recovery_time_s": 0.0,
+  "unique_success": 97416.0,
+  "duplicate_commits": 62.0,
+  "peak_switch_checks_per_s": 45.0,
+  "switch_checks_total": 2491.0,
+  "switch_checks_per_unknown": 16.606666666666666,
+  "unknowns_total": 150.0,
+  "median_resolve_s": 61.373000000000005,
+  "p95_resolve_s": 61.64455,
+  "escalated": 0.0,
+  "harmful_failovers": null,
+  "tat_breaches": null,
+  "goodput_min_frac": 0.9260029099979212
+ },
+ "ground_truth": [
+  {
+   "incident_id": "gt-1",
+   "onset_ms": 202685,
+   "end_ms": 233873,
+   "level": "bank",
+   "psp": "*",
+   "bank": "B3",
+   "kind": "verification_storm",
+   "magnitude": 0.14924604098052627,
+   "is_incident": true
+  }
+ ],
+ "files": {
+  "events": "events.jsonl.gz",
+  "ground_truth": "ground_truth.json",
+  "timeseries": "timeseries.json"
+ }
+}
