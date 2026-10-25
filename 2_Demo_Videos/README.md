@@ -1,8 +1,10 @@
 # Demo videos
 
+**Watch online:** [https://youtu.be/ziDjj4UHuJs](https://youtu.be/ziDjj4UHuJs) (YouTube, unlisted)
+
 | Video | What it shows |
 |---|---|
-| [QueueShield_demo_final.mp4](https://github.com/Rg9906/Citibank/raw/main/2_Demo_Videos/QueueShield_demo_final.mp4) | Full 4-minute narrated demo, 1080p, subtitles burned in |
+| [QueueShield_demo_final.mp4](https://github.com/Rg9906/Citibank/raw/main/2_Demo_Videos/QueueShield_demo_final.mp4) (download) | Full 4-minute narrated demo, 1080p, subtitles burned in |
 | [QueueShield_demo_no_burned_subtitles.mp4](https://github.com/Rg9906/Citibank/raw/main/2_Demo_Videos/QueueShield_demo_no_burned_subtitles.mp4) | Same demo without burned-in subtitles |
 | [QueueShield_demo_final.srt](QueueShield_demo_final.srt) | Subtitle file |
 
@@ -19,4 +21,4 @@
 | 7 | [Arena results](https://github.com/Rg9906/Citibank/raw/main/2_Demo_Videos/Feature_clips/07_Arena_results.mp4) |
 | 8 | [About and claims](https://github.com/Rg9906/Citibank/raw/main/2_Demo_Videos/Feature_clips/08_About_and_claims.mp4) |
 
-Links open the raw video, which plays in the browser (GitHub's file page does not preview video). All results shown are from our simulator on synthetic data.
+The file links download the video (GitHub does not preview video); use the YouTube link to watch online. All results shown are from our simulator on synthetic data.
