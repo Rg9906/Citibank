@@ -18,12 +18,12 @@ and every PSP is pushed the answer.
 | # | Folder | What you will find |
 |---|---|---|
 | 1 | [`1_Pitch_Deck/`](1_Pitch_Deck) | The pitch deck: [PDF](1_Pitch_Deck/QueueShield_pitch_deck.pdf) and [PPTX](1_Pitch_Deck/QueueShield_pitch_deck.pptx) (with speaker notes) |
-| 2 | [`2_Demo_Videos/`](2_Demo_Videos) | The 4-minute [demo video](2_Demo_Videos/QueueShield_demo_final.mp4), subtitles, and one short clip per feature |
+| 2 | [`2_Demo_Videos/`](2_Demo_Videos) | The 4-minute [demo video](https://github.com/Rg9906/Citibank/raw/main/2_Demo_Videos/QueueShield_demo_final.mp4), subtitles, and one short clip per feature |
 | 3 | [`3_Project/`](3_Project) | The full project: five modules, contracts, tests, docs, screenshots and simulation results |
 
 ## Watch first (4 minutes)
 
-[**QueueShield_demo_final.mp4**](2_Demo_Videos/QueueShield_demo_final.mp4) (narrated, 1080p, subtitles burned in).
+[**QueueShield_demo_final.mp4**](https://github.com/Rg9906/Citibank/raw/main/2_Demo_Videos/QueueShield_demo_final.mp4) (narrated, 1080p, subtitles burned in).
 Feature clips are listed in [`2_Demo_Videos/README.md`](2_Demo_Videos/README.md).
 
 ## Run the demo in 2 minutes (no backend needed)
